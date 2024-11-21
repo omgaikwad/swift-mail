@@ -1,0 +1,79 @@
+.inbox_wrapper {
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-color: var(--background);
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.loading_container {
+  box-sizing: border-box;
+  height: 90vh;
+  background-color: var(--background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inbox_container {
+  box-sizing: border-box;
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.filter_and_pagination_wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.mail_wrapper {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+
+.mail_container {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.mail_container_shrinked {
+  width: 40%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.pagination_container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.pagination_container p {
+  color: var(--primary);
+  font-size: 1rem;
+  border: 1px solid var(--primary);
+  border-radius: 50%;
+  padding: 4px 8px;
+}
+
+.pagination_button {
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 1rem;
+  padding: 4px 12px;
+}

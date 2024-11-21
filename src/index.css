@@ -1,0 +1,14 @@
+:root {
+  --primary: #e54065;
+  --background: #f4f5f9;
+  --border: #cfd2dc;
+  --text: #636363;
+  --filter-button: #e1e4ea;
+  --read-bg: #f2f2f2;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}

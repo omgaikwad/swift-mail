@@ -1,0 +1,37 @@
+.filter_container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.filter_heading {
+  font-size: 1.2rem;
+}
+
+.filter_action_buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.filter_button {
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 1rem;
+  padding: 4px 12px;
+}
+
+.active_filter {
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background-color: var(--filter-button);
+  border: 1px solid var(--border);
+  padding: 4px 12px;
+  border-radius: 1rem;
+}
